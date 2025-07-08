@@ -1,6 +1,6 @@
 # Particle Scaler
 
---------------------------------------------------------------------------
+--
 
 ## Introduction
 
@@ -10,7 +10,7 @@ Particle Scaler is intended to work in pair with PrimeVoxel's VFX Suite plugin, 
 
 Scaling is not meant to be a replacement of the ParticleEmitter's "Size" property, rather, it works in conjunction with it by evenly scaling the Size along the lifetime and duration of the particle emitter. Additionally, the "EmitDuration" attribute is taken into account when determining scaling, so it becomes possible for the particle emitter to be rescaled even when its performing continuous emission.
 
---------------------------------------------------------------------------
+--
 
 ## Usage
 
@@ -25,7 +25,7 @@ Scaling is not meant to be a replacement of the ParticleEmitter's "Size" propert
   *Default: NumberRange.new(0, 1)*
 
 
---------------------------------------------------------------------------
+--
 
 ## Notes
 
