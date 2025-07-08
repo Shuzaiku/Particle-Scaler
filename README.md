@@ -1,7 +1,5 @@
 # Particle Scaler
 
---
-
 ## Introduction
 
 Particle Scaler is a Roblox Studio plugin that enables dynamic scaling of ParticleEmitters over their lifetime and emit duration.
@@ -9,8 +7,6 @@ Particle Scaler is a Roblox Studio plugin that enables dynamic scaling of Partic
 Particle Scaler is intended to work in pair with PrimeVoxel's VFX Suite plugin, as it mostly works as an extension of its "Emit" functionality.
 
 Scaling is not meant to be a replacement of the ParticleEmitter's "Size" property, rather, it works in conjunction with it by evenly scaling the Size along the lifetime and duration of the particle emitter. Additionally, the "EmitDuration" attribute is taken into account when determining scaling, so it becomes possible for the particle emitter to be rescaled even when its performing continuous emission.
-
---
 
 ## Usage
 
@@ -23,9 +19,6 @@ Scaling is not meant to be a replacement of the ParticleEmitter's "Size" propert
 	
 - ScaleRange [NumberRange]: The minimum and maximum values that EmitScale can reach.
   *Default: NumberRange.new(0, 1)*
-
-
---
 
 ## Notes
 
